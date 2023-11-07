@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background: #F1F1F1;
+}
+
+.big_container {
+  width: 1161;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: column;
+}
+
+.line {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  width: 371px;
+}
+
+header {
+  background-color: #F1F1F1;
+}
+.header-container {
+  display: flex;
+  width: 1440px;
+  height: 110px;
+  background-color: #F1F1F1;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 212.34px;
+  height: 63.24px;
+  flex-shrink: 0;
+  margin: 143px;
+}
+
+li {
+  color: #000;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12px;
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #121723;
+  height: 142px;
+}
+
+.footer-container{
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 30px 0;
+  flex-direction: column;
+}
+
+.footer-links{
+  display: flex;
+}
+
+.header-links{
+  display: flex;
+}
+
+.line{
+  width: 100%;
+  border-top: 1px;
+  background: #E6E8EC;
+}
+.fin{
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-weight: 700;
+  color: #ccc;
+}
+
+body{
+  margin: 0;
+}
+
+.logo-image{
+  margin: 0;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1160px;
+  width: 100%;
+}
